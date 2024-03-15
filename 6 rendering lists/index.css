@@ -1,0 +1,22 @@
+.list-catagory{
+background-color: aquamarine;
+
+margin:0;
+padding:10px;
+border-radius: 5px;
+font-size: 2.5em;
+text-align: center;
+border: solid green 3px;
+}
+
+.list-items{
+ background-color: rgb(202, 202, 202);
+ border-radius: 5px;
+ margin:0;
+ text-align: center;
+ list-style: none;
+}
+.list-items li:hover{
+  color:blueviolet;
+  cursor: pointer;
+}
