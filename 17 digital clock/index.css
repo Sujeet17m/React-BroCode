@@ -1,0 +1,30 @@
+body{
+    background-image: url(assets/littleRaffi.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items:end;
+
+
+}
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0px;
+
+}
+.clock{
+    color: rgb(238, 171, 252);
+    font-size: 7rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
+    text-align: center;
+
+}
